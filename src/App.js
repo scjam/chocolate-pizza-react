@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import SydneysAmazingHeader from './SydneysAmazingHeader.js'
-function App() {
-  return (
-    <div className="App">
 
+export default class App extends React.Component {
+  render() {
+    return (
+    <div>
+      <SydneysAmazingHeader />
     </div>
-  );
+    );
+  }
 }
-
-export default App;
