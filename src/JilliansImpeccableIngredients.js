@@ -6,7 +6,7 @@ export default class JilliansImpeccableIngredients extends Component {
             <div>
 
                 <input type="checkbox"/>
-                    <label className="recipe-check-box" for="ingredient"> {this.props.ingredients} </label>
+                    <label className="recipe-check-box"> {this.props.amount} {this.props.name} </label>
 
             </div>
         )
