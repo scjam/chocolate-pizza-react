@@ -7,30 +7,51 @@ export default class IngredientsList extends Component {
         {
         name: 'milk',
         amount:'1 1/2 cups'
-    }, 
-        {name: 'mascarpone',
-        amount: ''}, 
-        {name: 'pink salt',
-        amount: ''}, 
-        {name: 'Black Mission Figs',
-        amount: ''}, 
-        {name: 'brown sugar',
-        amount: ''}, 
-        {name: 'water',
-        amount: ''}, 
-        {name: 'heavy cream',
-        amount: ''}, 
-        {name: 'granulated sugar',
-        amount: ''}, 
-        {name: 'egg yolks',
-        amount: ''}, 
-        {name: 'lemon, juiced',
-        amount: ''}, 
-        {name: 'butter',
-        amount: ''}, 
-        {name: 'honey roasted pecans, roughly chopped',
-    amount: ''}] 
-    // ingredientAmount = [, '1/2 cup ', '1/2 tsp ', '1 lb ', '1/2 cup ', '2-4 tbsp ', '1 1/2 cups ', '1/3 cup', '2 ', '1 ', '2 tbsp ', '1 cup ']
+        }, 
+        {
+        name: 'mascarpone',
+        amount: '1/2 cup'
+        }, 
+        {
+        name: 'pink salt',
+        amount: '1/2 tsp'
+        }, 
+        {
+        name: 'Black Mission Figs',
+        amount: '1 lb'
+        }, 
+        {
+        name: 'brown sugar',
+        amount: '1/2 cup'
+        }, 
+        {
+        name: 'water',
+        amount: '2-4 tbsp'
+        }, 
+        {
+        name: 'heavy cream',
+        amount: '1 1/2 cups'
+        }, 
+        {
+        name: 'granulated sugar',
+        amount: '1/3 cup'
+        }, 
+        {
+        name: 'egg yolks',
+        amount: '2'
+        }, 
+        {
+        name: 'lemon, juiced',
+        amount: '1'
+        }, 
+        {
+        name: 'butter',
+        amount: '2 tbsp'
+        }, 
+        {
+        name: 'honey roasted pecans, roughly chopped',
+        amount: '1 cup'
+    }] 
 
     render() {
         return (
